@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-section{
+.first-section{
     background-image: url(tech.jpg);
-    min-height: 100vh;
+    height: 700px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -18,4 +18,28 @@ section{
 }
 .one > h2 > span, .one h1{
     font-size: 50px;
+}
+.two{
+    background-color: black;
+    padding: 20px;
+    height: 66px;
+}
+.two h3{
+    font-size: 38px;
+    font-weight: 500;
+    color: aliceblue;
+    padding-left: 250px;
+}
+.two h3 > span{
+    font-size: 62px;
+}
+.second-section{
+    background-color: aliceblue;
+    height: 500px;
+}
+.web{
+    background-color: bisque;
+    height: 284px;
+    width: 189px;
+    
 }
