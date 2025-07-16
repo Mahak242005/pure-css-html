@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-image: url(tech.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.one{
+    background-color:transparent ;
+    color: white;
+    padding-top: 45px;
+    padding-left: 142px;
+}
+.one > h2 > span, .one h1{
+    font-size: 50px;
+}
