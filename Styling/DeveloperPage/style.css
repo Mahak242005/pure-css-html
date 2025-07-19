@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;;
+}
 .first-section{
     background-image: url(tech.jpg);
     height: 700px;
@@ -28,7 +32,7 @@
     font-size: 38px;
     font-weight: 500;
     color: aliceblue;
-    padding-left: 250px;
+    text-align: center;
 }
 .two h3 > span{
     font-size: 62px;
@@ -40,6 +44,65 @@
 .web{
     background-color: bisque;
     height: 284px;
-    width: 189px;
-    
+    width: 189px;   
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+img{
+    height: auto;
+    width: 100%;
+}
+.card{
+    max-width: 239px;
+    height: 351px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+    transition: 0.2s ease-in-out;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 60px;
+}
+.content{
+    padding: 20px;
+}
+.content h3{
+    margin-bottom: 20px;
+}
+.bottom{
+    display: flex;
+}
+.contact{
+    background-color: #515603;
+}
+.about{
+    background-color: #722300;
+}
+.contact,.about{
+    min-height: 180px;
+    padding: 35px;
+    color: white    ;
+}
+.contact h2,.about h2{
+    font-size: 60px;
+    font-weight: 100;
+}
+.contact p,.about p{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
 }
